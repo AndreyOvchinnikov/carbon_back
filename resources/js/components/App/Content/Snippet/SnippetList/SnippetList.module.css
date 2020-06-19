@@ -1,0 +1,51 @@
+.snippet_container{
+    display: block;
+    width: 100%;
+}
+.snippet{
+
+    width: 100%;
+    position: relative;
+}
+
+.snippet_subject{
+    margin-top: 20px;
+    width: 100% ;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #333646;
+    color: #34ff7c;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.snippet_description{
+    transition: all .3s ease;
+    height: auto;
+    padding: 20px 20px;
+    padding-bottom: 30px;
+    background-color: #fff;
+    color: #444;
+}
+.snippet_description.hide{
+    height: 0;
+    padding: 0 40px;
+    overflow: hidden;
+}
+.delete_action{
+    width: 29px;
+    height: 29px;
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    right: 3px;
+    z-index: 100;
+    top: 5px;
+    line-height: 29px;
+
+    border-radius: 3px;
+    background-color: #fff;
+    cursor:pointer;
+    color: #0C9A9A;
+}

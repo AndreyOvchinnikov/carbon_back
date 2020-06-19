@@ -1,0 +1,10 @@
+.window_content {
+    grid-area: c;
+    background-color: #fff;
+    padding: 20px;
+    width: 1fr;
+}
+
+
+
+

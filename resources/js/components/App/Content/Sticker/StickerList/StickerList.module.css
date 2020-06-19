@@ -1,0 +1,31 @@
+
+.link_sticker{
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #444;
+    color: #444;
+    margin: 10px;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.link_sticker:hover ,
+.active_link_sticker{
+    text-decoration: none;
+    border: 1px solid  #23ba9b;
+    color: #23ba9b;
+}
+
+.loader_container{
+    position: relative;
+    width: 75px;
+    height: 65px;
+    overflow: hidden;
+}
+.loader_container img{
+    position: absolute;
+    top: -45px;
+    left: -120px;
+    width: 300px;
+    height: auto;
+}

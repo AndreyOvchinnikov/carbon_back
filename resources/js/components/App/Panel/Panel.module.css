@@ -1,0 +1,26 @@
+.panel_content {
+    transition: all 1s ease-in-out;
+    grid-area: l;
+    background-color: #333646;
+    padding: 30px;
+    width: 150px;
+}
+
+.panel_links{
+    display: table;
+}
+.panel_link_item {
+
+    display: table-row;
+    color: #3490dc;
+    line-height: 30px;
+}
+
+.panel_link_item:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.active_panel_link_item {
+    color: #fff;
+}

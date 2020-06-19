@@ -1,0 +1,45 @@
+.snippet_form{
+    max-width: 100%;
+    padding: 20px;
+}
+.snippet_form_content{
+    width: 100% ;
+    display: block;
+    border:none;
+    margin: 0 auto;
+    border-bottom: 1px solid #c0c0c0;
+    font-size: 12px;
+}
+.snippet_form_description{
+    width: 100% ;
+    margin: 0 auto;
+    height: 120px;
+    display: block;
+    border:none;
+    font-size: 12px;
+    border-bottom: 1px solid #c0c0c0;
+
+
+}
+.snippet_form_submit{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right;
+    background-color: #30d253;
+    border: 1px solid #56565682;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 2px 2px 4px #b1b1b1;
+}
+
+.snippet_code_mirror{
+    margin: 0 auto;
+
+    height: 300px;
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+}

@@ -1,0 +1,6 @@
+.tools_content {
+    grid-area: r;
+    background-color: #f7f7f7;
+    padding: 20px;
+    width: 80px;
+}
